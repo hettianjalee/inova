@@ -22,7 +22,7 @@ test.describe('Reports & My Info Module', () => {
     expect(count).toBeGreaterThanOrEqual(0);
   });
 
-  // TC_049
+  
   test('TC_049 - My Info personal details can be edited', async ({ page }) => {
     await page.goto('/web/index.php/pim/viewMyDetails');
 
