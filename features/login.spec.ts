@@ -83,7 +83,7 @@ test.describe('OrangeHRM - End-to-End Test Suite', () => {
     await dashboardPage.verify_widgetVisible('Quick Launch');
   });
 
-  test('TC09 - should navigate to PIM module', async ({ loginPage, dashboardPage }) => {
+  test('TC11 - should navigate to PIM module', async ({ loginPage, dashboardPage }) => {
     await loginPage.step_navigate();
     await loginPage.step_login(users.admin);
 
